@@ -56,6 +56,7 @@ THIRD_PARTY_APPS = [
     'rest_framework.authtoken',
     'django_filters',
     'corsheaders',
+    'channels',
 ]
 LOCAL_APPS = [
     'render_test_01.users.apps.UsersAppConfig',
