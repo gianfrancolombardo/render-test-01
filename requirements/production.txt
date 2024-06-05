@@ -12,3 +12,7 @@ django-anymail[mailgun]==10.2
 
 # AWS ALB ALLOWED_HOSTS for health check
 django-allow-cidr==0.7.1
+
+whitenoise[brotli]
+gunicorn 
+uvicorn

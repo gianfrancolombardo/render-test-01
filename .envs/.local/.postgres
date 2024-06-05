@@ -2,5 +2,7 @@
 POSTGRES_HOST=postgres
 POSTGRES_PORT=5432
 POSTGRES_DB=render_test_01
-POSTGRES_USER=sBLRWyyPsInwHftmHAWmYJURGWBGFpLs
-POSTGRES_PASSWORD=tuXL3XSF8O7tsGrcGHoMos4tVNtL3tnrRshSCZokGnIfk4ArDyzaa297k2WgQPSL
+POSTGRES_USER=render_test_01_user
+POSTGRES_PASSWORD=render_test_01_pass
+
+DATABASE_URL=postgres://render_test_01_user:render_test_01_pass@postgres:5432/render_test_01
