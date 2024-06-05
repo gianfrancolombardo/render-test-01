@@ -2,6 +2,6 @@
 DJANGO_CORS_ORIGIN=http://localhost,http://localhost:4200
 
 # Redis
-# REDIS_URL=redis://redis:6379/0
+REDIS_URL=redis://redis:6379/0
 
 DJANGO_DEBUG=true
